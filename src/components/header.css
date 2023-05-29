@@ -1,0 +1,85 @@
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh; /* Adjust the padding using vh units */
+    text-align: center;
+  }
+
+  .App-header {
+    position: relative;
+  }
+  
+  .App-header {
+    position: relative;
+  }
+  
+  .title {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .subtitle {
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .subtitle a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .subtitle a:hover {
+    text-decoration: none;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .subtitle {
+      right: 50%;
+      transform: translateX(50%);
+      left: auto;
+    }
+  }
+  
+  
+  
+  .logos-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2vh; /* Adjust the margin using vh units */
+  }
+  
+  .logo-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh; /* Adjust the margin using vh units */
+  }
+  
+  .logo {
+    width: 6vh; /* Adjust the width of each logo using vh units */
+    height: 6vh; /* Adjust the height of each logo using vh units */
+    margin: 0 1vh; /* Adjust the margin between logos using vh units */
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      width: 4vh; /* Adjust the width of each logo for mobile devices using vh units */
+      height: 4vh; /* Adjust the height of each logo for mobile devices using vh units */
+      margin: 0 0.5vh; /* Adjust the margin between logos for mobile devices using vh units */
+    }
+    
+    .logo-row {
+      margin-bottom: 0.5vh; /* Adjust the margin between logo rows for mobile devices using vh units */
+    }
+  }
+  

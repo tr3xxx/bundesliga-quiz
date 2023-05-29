@@ -1,0 +1,55 @@
+.game-mode-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.game-mode-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .game-mode-cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px auto;
+  }
+}
+
+.game-mode-card {
+  background-color: #d20515;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.game-mode-card:hover {
+  background-color: #79030d;
+  transform: scale(1.05); /* Increase the scale value for a larger effect */
+}
+
+
+.game-mode-card h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff; /* Adjusted text color to white */
+}
+
+.game-mode-card p {
+  font-size: 14px;
+  color: #fff; /* Adjusted text color to white */
+}

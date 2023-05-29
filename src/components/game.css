@@ -1,0 +1,169 @@
+/* game.css */
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    font-weight: bold;
+  }
+  
+  .game-card {
+    background-color: #d20515;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  .game-card p {
+    margin-top: 5px; /* Adjust the top margin */
+    margin-bottom: 5px; /* Adjust the bottom margin */
+  }
+  .game-card h3 {
+    text-transform: uppercase;
+  }
+
+  .gameModeName{
+    background-color: #fff;
+    color: #d20515;
+    font-size: larger;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  .lifetimeCounter {
+    background-color: #fff;
+    color: #d20515;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 10%;
+    padding-right: 28px;
+    padding-bottom: ;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .details{
+    background-color: #bb0414;
+    color: #fff;
+    font-weight: bold;
+    padding:8%;
+    padding-top: 0px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  .share-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .shareMore{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+  }
+  .helper{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .back{
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #d20515;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  .whatsapp-icon {
+    color: #25D366;
+  }
+  
+  .twitter-icon {
+    color:  #00acee;
+  }
+
+  
+  form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 70%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  form button {
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #d20515;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #d20515;
+    color: white;
+  }
+  
+  
+  @media (max-width: 480px) {
+    /* Mobile styles */
+    .game-card {
+      max-width: 300px;
+    }
+  }
+  
