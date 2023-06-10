@@ -2,7 +2,7 @@
 
 Welcome to the Bundesliga Quiz 2022/23! This project is a fun and interactive quiz game that tests your knowledge about the German football league, the Bundesliga. Whether you're a die-hard fan or just looking to learn more about the league, this quiz has something for everyone.
 
-# Play [now]!([https://bundesliga2223quiz.netlify.app/](https://bundesliga.tr3x.xyz/))
+# Play [now](https://bundesliga.tr3x.xyz/)!
 
 [![Screenshot-2023-06-08-192420.png](https://i.postimg.cc/wjckxBRW/Screenshot-2023-06-08-192420.png)](https://postimg.cc/G4tDqdQY)
 
